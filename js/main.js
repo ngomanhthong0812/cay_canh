@@ -10,9 +10,11 @@ document.addEventListener("DOMContentLoaded", function() {
     const productImg = document.getElementById('image-product');
     const productNameElement = document.getElementById('name-product');
     const productDescriptionElement = document.getElementById('productDescription');
+    const titleProduct = document.getElementById("title")
   
     productImg.src = imageUrl;
     productNameElement.textContent = productName;
+    titleProduct.textContent = productName;
     productDescriptionElement.textContent = productDescription;
 
   });
